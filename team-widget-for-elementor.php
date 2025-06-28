@@ -6,7 +6,7 @@
  * Version:     1.0.0
  * Author:      Abdullah Nahian
  * Author URI:  https://anahian.com/
- * Text Domain: elementor-team
+ * Text Domain: team-widget-for-elementor
  * Domain Path: /languages
  */
 
@@ -114,9 +114,9 @@ final class Team_Widget_For_Elementor {
 		if ( isset( $_GET['activate'] ) ) unset( $_GET['activate'] );
 
 		$message = sprintf(
-			esc_html__( '"%1$s" requires "%2$s" to be installed and activated.', 'elementor-team' ),
-			'<strong>' . esc_html__( 'Team Widget for Elementor', 'elementor-team' ) . '</strong>',
-			'<strong>' . esc_html__( 'Elementor', 'elementor-team' ) . '</strong>'
+			esc_html__( '"%1$s" requires "%2$s" to be installed and activated.', 'team-widget-for-elementor' ),
+			'<strong>' . esc_html__( 'Team Widget for Elementor', 'team-widget-for-elementor' ) . '</strong>',
+			'<strong>' . esc_html__( 'Elementor', 'team-widget-for-elementor' ) . '</strong>'
 		);
 
 		printf( '<div class="notice notice-warning is-dismissible"><p>%1$s</p></div>', $message );
@@ -129,9 +129,9 @@ final class Team_Widget_For_Elementor {
 		if ( isset( $_GET['activate'] ) ) unset( $_GET['activate'] );
 
 		$message = sprintf(
-			esc_html__( '"%1$s" requires "%2$s" version %3$s or greater.', 'elementor-team' ),
-			'<strong>' . esc_html__( 'Team Widget for Elementor', 'elementor-team' ) . '</strong>',
-			'<strong>' . esc_html__( 'Elementor', 'elementor-team' ) . '</strong>',
+			esc_html__( '"%1$s" requires "%2$s" version %3$s or greater.', 'team-widget-for-elementor' ),
+			'<strong>' . esc_html__( 'Team Widget for Elementor', 'team-widget-for-elementor' ) . '</strong>',
+			'<strong>' . esc_html__( 'Elementor', 'team-widget-for-elementor' ) . '</strong>',
 			 self::MINIMUM_ELEMENTOR_VERSION
 		);
 
@@ -145,9 +145,9 @@ final class Team_Widget_For_Elementor {
 		if ( isset( $_GET['activate'] ) ) unset( $_GET['activate'] );
 
 		$message = sprintf(
-			esc_html__( '"%1$s" requires "%2$s" version %3$s or greater.', 'elementor-team' ),
-			'<strong>' . esc_html__( 'Team Widget for Elementor', 'elementor-team' ) . '</strong>',
-			'<strong>' . esc_html__( 'PHP', 'elementor-team' ) . '</strong>',
+			esc_html__( '"%1$s" requires "%2$s" version %3$s or greater.', 'team-widget-for-elementor' ),
+			'<strong>' . esc_html__( 'Team Widget for Elementor', 'team-widget-for-elementor' ) . '</strong>',
+			'<strong>' . esc_html__( 'PHP', 'team-widget-for-elementor' ) . '</strong>',
 			 self::MINIMUM_PHP_VERSION
 		);
 
