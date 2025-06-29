@@ -38,7 +38,7 @@
 }
 
 .hover-border1 {
-  background: var(--white);
+  background: #fff;
   position: relative;
   z-index: 1;
 }
@@ -79,7 +79,6 @@
   padding-top: 15px;
   padding-left: 15px;
 }
-
 .single-team1 .team-image .social-area .social-plus {
   width: 36px;
   height: 36px;
@@ -541,6 +540,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .team-one-image-wrap img {
   width: 100% !important;
 }
@@ -550,15 +550,18 @@
   width: 100%;
   height: 100%;
 }
+
 .team-one-content {
   padding: 26px 10px 10px;
 }
+
 .team-one-designation {
     color:#565656;
     font-size: 15px;
     font-weight: 400;
     line-height: 26px;
 }
+
 .team-one-title {
   font-family: var(--heading-font);
   color:#07180f;
@@ -571,6 +574,7 @@
   line-height: 28px;
   display: block;
 }
+
 .team-one-contact {
   color: #565656;
   display: inline;
