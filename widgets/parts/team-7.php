@@ -1,11 +1,11 @@
 <div class="team-7 team-card background-image">
    <div class="team-card_content">
       <?php if (!empty($settings['team_link']['url'])) :   ?>
-         <h4 class="team-card_title"><a class="ft-name" href="<?php echo esc_url($settings['team_link']['url']) ?>"><?php echo $team_name; ?></a>
+         <h4 class="team-card_title"><a class="ft-name" href="<?php echo esc_url($settings['team_link']['url']) ?>"><?php echo esc_html($team_name); ?></a>
          </h4>
       <?php endif ?>
       <?php if (!empty($team_designation)) :   ?>
-         <span class="team-card_desig ft-designation"><?php echo $team_designation; ?></span>
+         <span class="team-card_desig ft-designation"><?php echo esc_html($team_designation); ?></span>
       <?php endif ?>
       <div class="team-social_wrap">
          <div class="social-btn">
@@ -84,7 +84,7 @@
 
    <?php if (!empty($team_image['url'])) :   ?>
       <div class="team-card_img">
-         <img class="ft-image" src="<?php echo $team_image['url']; ?>" alt="img">
+         <img class="ft-image" src="<?php echo esc_url($team_image['url']); ?>" alt="<?php echo esc_attr($team_name); ?>">
       </div>
    <?php endif ?>
 

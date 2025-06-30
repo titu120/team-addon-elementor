@@ -2,7 +2,7 @@
    <div class="team-card  magnetic-item">
       <div class="team-img">
          <?php if (!empty($team_image['url'])) :   ?>
-            <img class="ft-image" decoding="async" src="<?php echo $team_image['url']; ?>" alt="team-image">
+            <img class="ft-image" decoding="async" src="<?php echo esc_url($team_image['url']); ?>" alt="<?php echo esc_attr($team_name); ?>">
          <?php endif ?>
          <ul class="social-list">
 
@@ -107,10 +107,10 @@
       </div>
       <div class="team-content">
          <?php if (!empty($team_name)) :   ?>
-            <h5 class="ft-name"><?php echo $team_name; ?></h5>
+            <h5 class="ft-name"><?php echo esc_html($team_name); ?></h5>
          <?php endif ?>
          <?php if (!empty($team_designation)) :   ?>
-            <span class="ft-designation"><?php echo $team_designation; ?></span>
+            <span class="ft-designation"><?php echo esc_html($team_designation); ?></span>
          <?php endif ?>
       </div>
    </div>

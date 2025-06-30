@@ -1,46 +1,77 @@
-=== Plugin Name ===
-Contributors: nahian91
-Donate link: https://www.anahian.com
-Tags: elementor, team widget, member widget
+=== Team Widget for Elementor ===
+Contributors: softivus
+Tags: elementor, team widget, member widget, team members, staff widget, elementor widgets
 Requires at least: 4.7
-Tested up to: 5.9
-Stable tag: 4.3
+Tested up to: 6.8.1
+Stable tag: 1.0.0
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+Custom Elementor extension which includes custom team widgets for displaying team members and staff profiles.
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+**Team Widget for Elementor** is a powerful extension that adds custom team member widgets to your Elementor page builder. Create beautiful team member displays with social media links, professional information, and customizable styling.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+### Features
 
-A few notes about the sections above:
+* **Custom Team Widget**: Display team members with photos, names, positions, and descriptions
+* **Social Media Integration**: Add social media links for each team member
+* **Responsive Design**: Fully responsive design that works on all devices
+* **FontAwesome Icons**: Built-in FontAwesome 6.7.0 support for social media icons
+* **Custom Styling**: Extensive CSS customization options
+* **Elementor Integration**: Seamlessly integrates with Elementor page builder
+* **Translation Ready**: Full internationalization support
 
-* "Contributors" is a comma separated list of wordpress.org usernames
-* "Tags" is a comma separated list of tags that apply to the plugin
-* "Requires at least" is the lowest version that the plugin will work on
-* "Tested up to" is the highest version that you've *successfully used to test the plugin*
-* Stable tag must indicate the Subversion "tag" of the latest stable version
+### Requirements
 
-Note that the `readme.txt` value of stable tag is the one that is the defining one for the plugin.  If the `/trunk/readme.txt` file says that the stable tag is `4.3`, then it is `/tags/4.3/readme.txt` that'll be used for displaying information about the plugin.
+* WordPress 4.7 or higher
+* Elementor 2.0.0 or higher
+* PHP 7.0 or higher
 
-If you develop in trunk, you can update the trunk `readme.txt` to reflect changes in your in-development version, without having that information incorrectly disclosed about the current stable version that lacks those changes -- as long as the trunk's `readme.txt` points to the correct stable tag.
+### Installation
 
-If no stable tag is provided, your users may not get the correct version of your code.
+1. Upload the plugin files to the `/wp-content/plugins/team-widget-for-elementor` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Make sure Elementor is installed and activated
+4. The team widget will be available in the Elementor editor under "Awesome Team Category"
+
+### Usage
+
+1. Open Elementor page builder
+2. Look for "Awesome Team Category" in the widgets panel
+3. Drag and drop the team widget to your page
+4. Configure team member information, styling, and social media links
+5. Save and preview your team display
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= Do I need Elementor to use this plugin? =
 
-An answer to that question.
+Yes, this plugin requires Elementor to be installed and activated. It's designed as an extension for Elementor page builder.
 
-= What about foo bar? =
+= What version of Elementor is required? =
 
-Answer to foo bar dilemma.
+This plugin requires Elementor version 2.0.0 or higher to function properly.
+
+= Can I customize the styling of the team widgets? =
+
+Yes, the plugin includes extensive CSS styling options and you can further customize the appearance using custom CSS.
+
+= Does this plugin support social media links? =
+
+Yes, the team widget includes built-in support for social media links with FontAwesome icons.
+
+= Is this plugin translation ready? =
+
+Yes, the plugin is fully translation ready and includes language files in the /languages directory.
+
+== Screenshots ==
+
+1. Team widget in Elementor editor showing configuration options
+2. Example of team member display with social media links
+3. Responsive design on mobile devices
 
 == Screenshots ==
 
@@ -49,47 +80,15 @@ Answer to foo bar dilemma.
 
 == Changelog ==
 
-= 1.0 =
-* A change since the previous version.
-* Another change.
-
-= 0.5 =
-* List versions from most recent at top to oldest at bottom.
+= 1.0.0 =
+* Initial release
+* Custom team widget for Elementor
+* Social media integration with FontAwesome icons
+* Responsive design implementation
+* Translation support
+* Custom styling options
 
 == Upgrade Notice ==
 
-= 1.0 =
-Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
-
-= 0.5 =
-This version fixes a security related bug.  Upgrade immediately.
-
-== A brief Markdown Example ==
-
-Markdown is what the parser uses to process much of the readme file.
-
-[markdown syntax]: https://daringfireball.net/projects/markdown/syntax
-
-Ordered list:
-
-1. Some feature
-1. Another feature
-1. Something else about the plugin
-
-Unordered list:
-
-* something
-* something else
-* third thing
-
-Links require brackets and parenthesis:
-
-Here's a link to [WordPress](https://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax]. Link titles are optional, naturally.
-
-Blockquotes are email style:
-
-> Asterisks for *emphasis*. Double it up  for **strong**.
-
-And Backticks for code:
-
-`<?php code(); ?>`
+= 1.0.0 =
+Initial release of Team Widget for Elementor. This plugin adds custom team member widgets to your Elementor page builder with social media integration and responsive design.

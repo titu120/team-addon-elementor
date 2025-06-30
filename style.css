@@ -7,6 +7,12 @@
   background: #00CAEB1A;
 }
 
+ul.social-links.d-flex.justify-content-center.align-items-center.flex-column.gap-3 {
+  gap: 12px !important;
+  display: flex;
+  flex-direction: column;
+}
+
 .section-title span {
   font-size: 16px;
   font-weight: 500;
@@ -874,4 +880,54 @@ a{
   color: #454750;
   font-size: 22px;
 }
+/* Base styles (applied to all screen sizes) */
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 
+/* ≥1200px (xl and up) */
+@media (min-width: 1200px) {
+  .py-5 {
+    padding-top: 1.5rem;     
+    padding-bottom: 1.5rem;
+  }
+  .px-4 {
+    padding-left: 1.25rem;   
+    padding-right: 1.25rem;
+  }
+}
+
+/* ≥1400px (xxl and up) */
+@media (min-width: 1400px) {
+  .py-5 {
+    padding-top: 2rem;       /* py-xxl-8 */
+    padding-bottom: 2rem;
+  }
+  .px-4 {
+    padding-left: 1.75rem;   /* px-xxl-7 */
+    padding-right: 1.75rem;
+  }
+}
+
+.team-8 .trans-social {
+  list-style-type: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.text-center{
+  text-align: center;
+}
+.team-8 .ft-name{
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+  transition: 0.5s;
+}

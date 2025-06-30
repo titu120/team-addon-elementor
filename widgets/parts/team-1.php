@@ -2,7 +2,7 @@
     <div class="single-team1 hover-border1 wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: fadeInDown;">
         <div class="team-image">
             <?php if (!empty($team_image['url'])) :   ?>
-                <img class="ft-image" decoding="async" src="<?php echo $team_image['url']; ?>">
+                <img class="ft-image" decoding="async" src="<?php echo esc_url($team_image['url']); ?>" alt="<?php echo esc_attr($team_name); ?>">
             <?php endif ?>
 
             <div class="social-area gap-3">
@@ -61,10 +61,10 @@
         </div>
         <div class="team-content">
             <?php if (!empty($team_name)) :   ?>
-                <h4 class="name ft-name"><?php echo $team_name; ?></h4>
+                <h4 class="name ft-name"><?php echo esc_html($team_name); ?></h4>
             <?php endif ?>
             <?php if (!empty($team_designation)) :   ?>
-                <p class="designation ft-designation"><?php echo $team_designation; ?></p>
+                <p class="designation ft-designation"><?php echo esc_html($team_designation); ?></p>
             <?php endif ?>
         </div>
     </div>

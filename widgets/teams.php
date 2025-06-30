@@ -161,9 +161,9 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'team_link',
 			[
-				'label' => esc_html__( 'Team Link', 'plugin-name' ),
+				'label' => esc_html__( 'Team Link', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::URL,
-				'placeholder' => esc_html__( 'https://your-link.com', 'plugin-name' ),
+				'placeholder' => esc_html__( 'https://your-link.com', 'team-widget-for-elementor' ),
 				'default' => [
 					'url' => '#',
 					'is_external' => true,
@@ -177,9 +177,9 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'number',
 			[
-				'label' => esc_html__( 'Phone Number', 'plugin-name' ),
+				'label' => esc_html__( 'Phone Number', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::TEXT,
-				'default' => esc_html__( '+1 800-123-1234', 'plugin-name' ),
+				'default' => esc_html__( '+1 800-123-1234', 'team-widget-for-elementor' ),
 				'label_block' => true,
 			]
 		);
@@ -187,7 +187,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'more_options',
 			[
-				'label' => esc_html__( 'Team Social', 'plugin-name' ),
+				'label' => esc_html__( 'Team Social', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::HEADING,
 				'separator' => 'before',
 			]
@@ -198,9 +198,9 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'facebook',
 			[
-				'label' => esc_html__( 'Facebook', 'plugin-name' ),
+				'label' => esc_html__( 'Facebook', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::URL,
-				'placeholder' => esc_html__( 'https://your-link.com', 'plugin-name' ),
+				'placeholder' => esc_html__( 'https://your-link.com', 'team-widget-for-elementor' ),
 				'default' => [
 					'url' => '#',
 					'is_external' => true,
@@ -214,9 +214,9 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'twitter',
 			[
-				'label' => esc_html__( 'Twitter', 'plugin-name' ),
+				'label' => esc_html__( 'Twitter', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::URL,
-				'placeholder' => esc_html__( 'https://your-link.com', 'plugin-name' ),
+				'placeholder' => esc_html__( 'https://your-link.com', 'team-widget-for-elementor' ),
 				'default' => [
 					'url' => '#',
 					'is_external' => true,
@@ -230,9 +230,9 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'linkedin',
 			[
-				'label' => esc_html__( 'Linkedin', 'plugin-name' ),
+				'label' => esc_html__( 'Linkedin', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::URL,
-				'placeholder' => esc_html__( 'https://your-link.com', 'plugin-name' ),
+				'placeholder' => esc_html__( 'https://your-link.com', 'team-widget-for-elementor' ),
 				'default' => [
 					'url' => '#',
 					'is_external' => true,
@@ -246,9 +246,9 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'instagram',
 			[
-				'label' => esc_html__( 'Instagram', 'plugin-name' ),
+				'label' => esc_html__( 'Instagram', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::URL,
-				'placeholder' => esc_html__( 'https://your-link.com', 'plugin-name' ),
+				'placeholder' => esc_html__( 'https://your-link.com', 'team-widget-for-elementor' ),
 				'label_block' => true,
 			]
 		);
@@ -256,9 +256,9 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'pinterest',
 			[
-				'label' => esc_html__( 'Pinterest', 'plugin-name' ),
+				'label' => esc_html__( 'Pinterest', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::URL,
-				'placeholder' => esc_html__( 'https://your-link.com', 'plugin-name' ),
+				'placeholder' => esc_html__( 'https://your-link.com', 'team-widget-for-elementor' ),
 				'label_block' => true,
 			]
 		);
@@ -266,9 +266,9 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'youtube',
 			[
-				'label' => esc_html__( 'Youtube', 'plugin-name' ),
+				'label' => esc_html__( 'Youtube', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::URL,
-				'placeholder' => esc_html__( 'https://your-link.com', 'plugin-name' ),
+				'placeholder' => esc_html__( 'https://your-link.com', 'team-widget-for-elementor' ),
 				'label_block' => true,
 			]
 		);
@@ -276,9 +276,9 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'tiktok',
 			[
-				'label' => esc_html__( 'Tiktok', 'plugin-name' ),
+				'label' => esc_html__( 'Tiktok', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::URL,
-				'placeholder' => esc_html__( 'https://your-link.com', 'plugin-name' ),
+				'placeholder' => esc_html__( 'https://your-link.com', 'team-widget-for-elementor' ),
 				'label_block' => true,
 			]
 		);
@@ -286,9 +286,9 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'github',
 			[
-				'label' => esc_html__( 'Github', 'plugin-name' ),
+				'label' => esc_html__( 'Github', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::URL,
-				'placeholder' => esc_html__( 'https://your-link.com', 'plugin-name' ),
+				'placeholder' => esc_html__( 'https://your-link.com', 'team-widget-for-elementor' ),
 				'label_block' => true,
 			]
 		);
@@ -296,9 +296,9 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'whatsapp',
 			[
-				'label' => esc_html__( 'Whatsapp', 'plugin-name' ),
+				'label' => esc_html__( 'Whatsapp', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::URL,
-				'placeholder' => esc_html__( 'https://your-link.com', 'plugin-name' ),
+				'placeholder' => esc_html__( 'https://your-link.com', 'team-widget-for-elementor' ),
 				'label_block' => true,
 			]
 		);
@@ -306,9 +306,9 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'behance',
 			[
-				'label' => esc_html__( 'Behance', 'plugin-name' ),
+				'label' => esc_html__( 'Behance', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::URL,
-				'placeholder' => esc_html__( 'https://your-link.com', 'plugin-name' ),
+				'placeholder' => esc_html__( 'https://your-link.com', 'team-widget-for-elementor' ),
 				'label_block' => true,
 			]
 		);
@@ -316,9 +316,9 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'custom',
 			[
-				'label' => esc_html__( 'Custom', 'plugin-name' ),
+				'label' => esc_html__( 'Custom', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::URL,
-				'placeholder' => esc_html__( 'https://your-link.com', 'plugin-name' ),
+				'placeholder' => esc_html__( 'https://your-link.com', 'team-widget-for-elementor' ),
 				'label_block' => true,
 			]
 		);
@@ -338,7 +338,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'image_style',
 			[
-				'label' => esc_html__('Image', 'plugin-name'),
+				'label' => esc_html__('Image', 'team-widget-for-elementor'),
 				'tab'   => Controls_Manager::TAB_STYLE,
 			]
 		);
@@ -347,10 +347,10 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_responsive_control(
 			'imagestyle_height',
 			[
-				'label'       => esc_html__('Height', 'plugin-name'),
+				'label'       => esc_html__('Height', 'team-widget-for-elementor'),
 				'type'        => Controls_Manager::SLIDER,
 				'size_units'  => ['px', '%'],  // Allow px and percentage units
-				'description' => esc_html__('Choose height in px or %', 'plugin-name'),
+				'description' => esc_html__('Choose height in px or %', 'team-widget-for-elementor'),
 				'selectors'   => [
 					'{{WRAPPER}} .ft-image' => 'height: {{SIZE}}{{UNIT}};', // Dynamic unit
 				],
@@ -364,10 +364,10 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_responsive_control(
 			'imagestyle_width',
 			[
-				'label'       => esc_html__('Width', 'plugin-name'),
+				'label'       => esc_html__('Width', 'team-widget-for-elementor'),
 				'type'        => Controls_Manager::SLIDER,
 				'size_units'  => ['px', '%'],  // Allow px and percentage units
-				'description' => esc_html__('Choose width in px or %', 'plugin-name'),
+				'description' => esc_html__('Choose width in px or %', 'team-widget-for-elementor'),
 				'selectors'   => [
 					'{{WRAPPER}} .ft-image' => 'width: {{SIZE}}{{UNIT}};', // Dynamic unit
 				],
@@ -381,7 +381,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_responsive_control(
 			'imagestyle_border_radius',
 			[
-				'label'      => __('Border Radius', 'plugin-name'),
+				'label'      => __('Border Radius', 'team-widget-for-elementor'),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => ['px', '%'],
 				'selectors'  => [
@@ -397,7 +397,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'team_names',
 			[
-				'label' => esc_html__('Name', 'plugin-name'),
+				'label' => esc_html__('Name', 'team-widget-for-elementor'),
 				'tab'   => Controls_Manager::TAB_STYLE,
 			]
 		);
@@ -406,7 +406,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_group_control(
 			Group_Control_Typography::get_type(),
 			[
-				'label'    => esc_html__('Typography', 'plugin-name'),
+				'label'    => esc_html__('Typography', 'team-widget-for-elementor'),
 				'name'     => 'name_typ',
 				'selector' => '{{WRAPPER}} .ft-name',
 		
@@ -416,7 +416,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'name_color',
 			[
-				'label'     => esc_html__('Color', 'plugin-name'),
+				'label'     => esc_html__('Color', 'team-widget-for-elementor'),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .ft-name' => 'color: {{VALUE}} !important;',
@@ -426,7 +426,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_responsive_control(
 			'name_margin',
 			[
-				'label' => esc_html__( 'Margin', 'plugin-name' ),
+				'label' => esc_html__( 'Margin', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%', 'em' ],
 				'selectors' => [
@@ -438,7 +438,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_responsive_control(
 			'name_padding',
 			[
-				'label'      => __('Padding', 'plugin-name'),
+				'label'      => __('Padding', 'team-widget-for-elementor'),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => ['px', '%'],
 				'selectors'  => [
@@ -454,7 +454,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'designation_style',
 			[
-				'label' => esc_html__('Designation', 'plugin-name'),
+				'label' => esc_html__('Designation', 'team-widget-for-elementor'),
 				'tab'   => Controls_Manager::TAB_STYLE,
 			]
 		);
@@ -462,7 +462,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_group_control(
 			Group_Control_Typography::get_type(),
 			[
-				'label'    => esc_html__('Typography', 'plugin-name'),
+				'label'    => esc_html__('Typography', 'team-widget-for-elementor'),
 				'name'     => 'designation_typ',
 				'selector' => '{{WRAPPER}} .ft-designation',
 		
@@ -472,7 +472,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'designation_color',
 			[
-				'label'     => esc_html__('Color', 'plugin-name'),
+				'label'     => esc_html__('Color', 'team-widget-for-elementor'),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .ft-designation' => 'color: {{VALUE}} !important;',
@@ -483,7 +483,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_responsive_control(
 			'designation_margin',
 			[
-				'label' => esc_html__( 'Margin', 'plugin-name' ),
+				'label' => esc_html__( 'Margin', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%', 'em' ],
 				'selectors' => [
@@ -495,7 +495,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_responsive_control(
 			'designation_padding',
 			[
-				'label'      => __('Padding', 'plugin-name'),
+				'label'      => __('Padding', 'team-widget-for-elementor'),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => ['px', '%'],
 				'selectors'  => [
@@ -512,7 +512,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'social_contentt',
 			[
-				'label' => esc_html__('Social', 'plugin-name'),
+				'label' => esc_html__('Social', 'team-widget-for-elementor'),
 				'tab'   => Controls_Manager::TAB_STYLE,
 			]
 		);
@@ -520,7 +520,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'social_icon_color',
 			[
-				'label' => esc_html__( 'Icon Color', 'plugin-name' ),
+				'label' => esc_html__( 'Icon Color', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .single-team1 .team-image .social-area .social-links a i' => 'color: {{VALUE}} !important',
@@ -537,7 +537,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'social_icon_color_hover',
 			[
-				'label' => esc_html__( 'Icon Hover Color', 'plugin-name' ),
+				'label' => esc_html__( 'Icon Hover Color', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .single-team1 .team-image .social-area .social-links a i:hover' => 'color: {{VALUE}} !important',
@@ -554,7 +554,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'social_icon_color_background',
 			[
-				'label' => esc_html__( 'Icon Background ', 'plugin-name' ),
+				'label' => esc_html__( 'Icon Background ', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .single-team1 .team-image .social-area .social-links a i' => 'background: {{VALUE}} !important',
@@ -571,7 +571,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'social_icon_color_background_hover',
 			[
-				'label' => esc_html__( 'Icon Hove Background ', 'plugin-name' ),
+				'label' => esc_html__( 'Icon Hove Background ', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .single-team1 .team-image .social-area .social-links a i:hover' => 'background: {{VALUE}} !important',
@@ -588,7 +588,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'social_label_color',
 			[
-				'label' => esc_html__( 'label Color', 'plugin-name' ),
+				'label' => esc_html__( 'label Color', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .social-title' => 'color: {{VALUE}} !important',
@@ -599,7 +599,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'social_label_color_background',
 			[
-				'label' => esc_html__( 'label Backgroud Color', 'plugin-name' ),
+				'label' => esc_html__( 'label Backgroud Color', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .social-title' => 'background: {{VALUE}} !important',
@@ -614,7 +614,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'number_contentt',
 			[
-				'label' => esc_html__('Number', 'plugin-name'),
+				'label' => esc_html__('Number', 'team-widget-for-elementor'),
 				'tab'   => Controls_Manager::TAB_STYLE,
 			]
 		);
@@ -623,7 +623,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_group_control(
 			Group_Control_Typography::get_type(),
 			[
-				'label'    => esc_html__('Typography', 'plugin-name'),
+				'label'    => esc_html__('Typography', 'team-widget-for-elementor'),
 				'name'     => 'social_typ',
 				'selector' => '{{WRAPPER}} .ft-number',
 		
@@ -634,7 +634,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'social_color',
 			[
-				'label'     => esc_html__('Color', 'plugin-name'),
+				'label'     => esc_html__('Color', 'team-widget-for-elementor'),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .ft-number' => 'color: {{VALUE}} !important;',
@@ -646,7 +646,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_responsive_control(
 			'social_margin',
 			[
-				'label' => esc_html__( 'Margin', 'plugin-name' ),
+				'label' => esc_html__( 'Margin', 'team-widget-for-elementor' ),
 				'type' => \Elementor\Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%', 'em' ],
 				'selectors' => [
@@ -659,7 +659,7 @@ class Elementor_Teams_Widget extends \Elementor\Widget_Base {
 		$this->add_responsive_control(
 			'social_padding',
 			[
-				'label'      => __('Padding', 'plugin-name'),
+				'label'      => __('Padding', 'team-widget-for-elementor'),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => ['px', '%'],
 				'selectors'  => [

@@ -5,8 +5,13 @@
 
       <?php if (!empty($team_image['url'])) :   ?>
          <div class="thumb">
-            <img loading="lazy" decoding="async" width="330" height="370" src="<?php echo $team_image['url']; ?>" class="ft-image attachment-post-thumbnail size-post-thumbnail wp-post-image">
+            <img loading="lazy" decoding="async" width="330" height="370" src="<?php echo esc_url($team_image['url']); ?>" alt="<?php echo esc_attr($team_name); ?>" class="ft-image attachment-post-thumbnail size-post-thumbnail wp-post-image">
          </div>
+      <?php endif ?>
+
+      <?php if (!empty($settings['team_link']['url'])) :   ?>
+         <h4 class="team-card_title text-center"><a class="ft-name" href="<?php echo esc_url($settings['team_link']['url']) ?>"><?php echo esc_html($team_name); ?></a>
+         </h4>
       <?php endif ?>
 
 

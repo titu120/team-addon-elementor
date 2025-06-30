@@ -2,7 +2,7 @@
    <div class="team__top">
       <?php if (!empty($team_image['url'])) :   ?>
          <div class="team_img">
-            <img class="ft-image" decoding="async" src="<?php echo $team_image['url']; ?>" alt="">
+            <img class="ft-image" decoding="async" src="<?php echo esc_url($team_image['url']); ?>" alt="<?php echo esc_attr($team_name); ?>">
          </div>
       <?php endif ?>
 
@@ -86,10 +86,10 @@
 
    <div class="team_content">
       <?php if (!empty($settings['team_link']['url'])) :   ?>
-         <h3><a class="ft-name" href="<?php echo esc_url($settings['team_link']['url']) ?>"><?php echo $team_name; ?></a></h3>
+         <h3><a class="ft-name" href="<?php echo esc_url($settings['team_link']['url']) ?>"><?php echo esc_html($team_name); ?></a></h3>
       <?php endif ?>
       <?php if (!empty($team_designation)) :   ?>
-         <span class="ft-designation"><?php echo $team_designation; ?></span>
+         <span class="ft-designation"><?php echo esc_html($team_designation); ?></span>
       <?php endif ?>
    </div>
 

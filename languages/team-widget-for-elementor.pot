@@ -1,0 +1,281 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Team Widget for Elementor\n"
+"POT-Creation-Date: 2025-06-29 11:07+0600\n"
+"PO-Revision-Date: 2025-06-29 11:07+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: team-widget-for-elementor.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: team-widget-for-elementor.php:104
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: team-widget-for-elementor.php:105 team-widget-for-elementor.php:120
+#: team-widget-for-elementor.php:136
+msgid "Team Widget for Elementor"
+msgstr ""
+
+#: team-widget-for-elementor.php:106 team-widget-for-elementor.php:121
+msgid "Elementor"
+msgstr ""
+
+#: team-widget-for-elementor.php:119 team-widget-for-elementor.php:135
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: team-widget-for-elementor.php:137
+msgid "PHP"
+msgstr ""
+
+#: team-widget-for-elementor.php:167
+msgid "Awesome Team Category"
+msgstr ""
+
+#: widgets/teams.php:51
+msgid "Team Widget"
+msgstr ""
+
+#: widgets/teams.php:96
+msgid "Content"
+msgstr ""
+
+#: widgets/teams.php:106
+msgid "Select Layout"
+msgstr ""
+
+#: widgets/teams.php:110
+msgid "Team Style 1"
+msgstr ""
+
+#: widgets/teams.php:111
+msgid "Team Style 2"
+msgstr ""
+
+#: widgets/teams.php:112
+msgid "Team Style 3"
+msgstr ""
+
+#: widgets/teams.php:113
+msgid "Team Style 4"
+msgstr ""
+
+#: widgets/teams.php:114
+msgid "Team Style 5"
+msgstr ""
+
+#: widgets/teams.php:115
+msgid "Team Style 6"
+msgstr ""
+
+#: widgets/teams.php:116
+msgid "Team Style 7"
+msgstr ""
+
+#: widgets/teams.php:117
+msgid "Team Style 8"
+msgstr ""
+
+#: widgets/teams.php:126
+msgid "Choose Image"
+msgstr ""
+
+#: widgets/teams.php:139 widgets/teams.php:400
+msgid "Name"
+msgstr ""
+
+#: widgets/teams.php:141
+msgid "John Doe"
+msgstr ""
+
+#: widgets/teams.php:142
+msgid "Type your name here"
+msgstr ""
+
+#: widgets/teams.php:152
+msgid "Designtion"
+msgstr ""
+
+#: widgets/teams.php:154
+msgid "Web Developer"
+msgstr ""
+
+#: widgets/teams.php:155
+msgid "Type your designation here"
+msgstr ""
+
+#: widgets/teams.php:164
+msgid "Team Link"
+msgstr ""
+
+#: widgets/teams.php:166 widgets/teams.php:203 widgets/teams.php:219
+#: widgets/teams.php:235 widgets/teams.php:251 widgets/teams.php:261
+#: widgets/teams.php:271 widgets/teams.php:281 widgets/teams.php:291
+#: widgets/teams.php:301 widgets/teams.php:311 widgets/teams.php:321
+msgid "https://your-link.com"
+msgstr ""
+
+#: widgets/teams.php:180
+msgid "Phone Number"
+msgstr ""
+
+#: widgets/teams.php:182
+msgid "+1 800-123-1234"
+msgstr ""
+
+#: widgets/teams.php:190
+msgid "Team Social"
+msgstr ""
+
+#: widgets/teams.php:201
+msgid "Facebook"
+msgstr ""
+
+#: widgets/teams.php:217
+msgid "Twitter"
+msgstr ""
+
+#: widgets/teams.php:233
+msgid "Linkedin"
+msgstr ""
+
+#: widgets/teams.php:249
+msgid "Instagram"
+msgstr ""
+
+#: widgets/teams.php:259
+msgid "Pinterest"
+msgstr ""
+
+#: widgets/teams.php:269
+msgid "Youtube"
+msgstr ""
+
+#: widgets/teams.php:279
+msgid "Tiktok"
+msgstr ""
+
+#: widgets/teams.php:289
+msgid "Github"
+msgstr ""
+
+#: widgets/teams.php:299
+msgid "Whatsapp"
+msgstr ""
+
+#: widgets/teams.php:309
+msgid "Behance"
+msgstr ""
+
+#: widgets/teams.php:319
+msgid "Custom"
+msgstr ""
+
+#: widgets/teams.php:341
+msgid "Image"
+msgstr ""
+
+#: widgets/teams.php:350
+msgid "Height"
+msgstr ""
+
+#: widgets/teams.php:353
+msgid "Choose height in px or %"
+msgstr ""
+
+#: widgets/teams.php:367
+msgid "Width"
+msgstr ""
+
+#: widgets/teams.php:370
+msgid "Choose width in px or %"
+msgstr ""
+
+#: widgets/teams.php:384
+msgid "Border Radius"
+msgstr ""
+
+#: widgets/teams.php:409 widgets/teams.php:465 widgets/teams.php:626
+msgid "Typography"
+msgstr ""
+
+#: widgets/teams.php:419 widgets/teams.php:475 widgets/teams.php:637
+msgid "Color"
+msgstr ""
+
+#: widgets/teams.php:429 widgets/teams.php:486 widgets/teams.php:649
+msgid "Margin"
+msgstr ""
+
+#: widgets/teams.php:441 widgets/teams.php:498 widgets/teams.php:662
+msgid "Padding"
+msgstr ""
+
+#: widgets/teams.php:457
+msgid "Designation"
+msgstr ""
+
+#: widgets/teams.php:515
+msgid "Social"
+msgstr ""
+
+#: widgets/teams.php:523
+msgid "Icon Color"
+msgstr ""
+
+#: widgets/teams.php:540
+msgid "Icon Hover Color"
+msgstr ""
+
+#: widgets/teams.php:557
+msgid "Icon Background "
+msgstr ""
+
+#: widgets/teams.php:574
+msgid "Icon Hove Background "
+msgstr ""
+
+#: widgets/teams.php:591
+msgid "label Color"
+msgstr ""
+
+#: widgets/teams.php:602
+msgid "label Backgroud Color"
+msgstr ""
+
+#: widgets/teams.php:617
+msgid "Number"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://anahian.com/awesome-team-widget"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Custom Elementor extension which includes custom team widgets."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Abdullah Nahian"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://anahian.com/"
+msgstr ""

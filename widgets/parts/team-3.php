@@ -3,7 +3,7 @@
         <div class="team-img">
 
             <?php if (!empty($settings['team_link']['url'])) :   ?>
-                <a href="<?php echo esc_url($settings['team_link']['url']) ?>"><img decoding="async" width="648" height="748" src="<?php echo $team_image['url']; ?>" class="ft-image attachment-post-thumbnail size-post-thumbnail wp-post-image"></a>
+                <a href="<?php echo esc_url($settings['team_link']['url']) ?>"><img decoding="async" width="648" height="748" src="<?php echo esc_url($team_image['url']); ?>" alt="<?php echo esc_attr($team_name); ?>" class="ft-image attachment-post-thumbnail size-post-thumbnail wp-post-image"></a>
             <?php endif ?>
 
             <ul class="social-list">
@@ -15,7 +15,7 @@
                 <?php endif ?>
 
                 <?php if (!empty($settings['twitter']['url'])) :   ?>
-                    <li><a href="<?php echo esc_url($settings['facebook']['url']) ?>">
+                    <li><a href="<?php echo esc_url($settings['twitter']['url']) ?>">
                             <i class="fa-brands fa-twitter"></i>
                         </a></li>
                 <?php endif ?>
@@ -81,10 +81,10 @@
         </div>
         <div class="team-content">
             <?php if (!empty($team_name)) :   ?>
-                <h5><a class="ft-name" href="https://mortar-wp.egenstheme.com/team/mr-jorche-milton-2/"><?php echo $team_name; ?></a></h5>
+                <h5><a class="ft-name" href="<?php echo esc_url($settings['team_link']['url']); ?>"><?php echo esc_html($team_name); ?></a></h5>
             <?php endif ?>
             <?php if (!empty($team_designation)) :   ?>
-                <span class="ft-designation"><?php echo $team_designation; ?></span>
+                <span class="ft-designation"><?php echo esc_html($team_designation); ?></span>
             <?php endif ?>
         </div>
     </div>

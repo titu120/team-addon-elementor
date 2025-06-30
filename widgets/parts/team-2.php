@@ -2,17 +2,17 @@
     <?php if (!empty($team_image['url'])) :   ?>
         <div class="team-img">
             <a href="<?php echo esc_url($settings['team_link']['url']) ?>">
-                <img loading="lazy" decoding="async" width="648" height="748" src="<?php echo $team_image['url']; ?>" class="ft-image attachment-post-thumbnail size-post-thumbnail wp-post-image">
+                <img loading="lazy" decoding="async" width="648" height="748" src="<?php echo esc_url($team_image['url']); ?>" alt="<?php echo esc_attr($team_name); ?>" class="ft-image attachment-post-thumbnail size-post-thumbnail wp-post-image">
             </a>
         </div>
     <?php endif ?>
 
     <div class="team-content">
         <?php if (!empty($team_name)) :   ?>
-            <h5><a class="ft-name" href="https://mortar-wp.egenstheme.com/team/mr-jorche-milton-2/"><?php echo $team_name; ?></a></h5>
+            <h5><a class="ft-name" href="<?php echo esc_url($settings['team_link']['url']); ?>"><?php echo esc_html($team_name); ?></a></h5>
         <?php endif ?>
         <?php if (!empty($team_designation)) :   ?>
-            <span class="ft-designation"><?php echo $team_designation; ?></span>
+            <span class="ft-designation"><?php echo esc_html($team_designation); ?></span>
         <?php endif ?>
         <svg class="divider" height="6" viewBox="0 0 312 6" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M5 2.5L0 0.113249V5.88675L5 3.5V2.5ZM307 3.5L312 5.88675V0.113249L307 2.5V3.5ZM4.5 3.5H307.5V2.5H4.5V3.5Z"></path>

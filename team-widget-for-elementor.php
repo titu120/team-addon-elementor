@@ -4,8 +4,8 @@
  * Description: Custom Elementor extension which includes custom team widgets.
  * Plugin URI:  https://anahian.com/awesome-team-widget
  * Version:     1.0.0
- * Author:      Abdullah Nahian
- * Author URI:  https://anahian.com/
+ * Author:      softivus
+ * Author URI:  https://profiles.wordpress.org/softivus/
  * Text Domain: team-widget-for-elementor
  * Domain Path: /languages
  */
@@ -18,6 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Team Widget For Elementor Main Class
  * Handles the initialization and setup of team display widgets
  */
+
 final class Team_Widget_For_Elementor {
 
 	const VERSION = '1.0.0';
@@ -44,20 +45,14 @@ final class Team_Widget_For_Elementor {
 	public function __construct() {
 		add_action( 'init', [ $this, 'i18n' ] );
 		add_action( 'plugins_loaded', [ $this, 'init' ] );
-		add_action( 'wp_enqueue_scripts', [ $this, 'enqueue_bootstrap' ] );
+		add_action( 'wp_enqueue_scripts', [ $this, 'enqueue_fontawesome' ] );
 	}
 
 	/**
 	 * Load external CSS and JS libraries
 	 * Includes Bootstrap and FontAwesome for team widget styling
 	 */
-	public function enqueue_bootstrap() {
-		wp_enqueue_style(
-			'elementor-team-bootstrap-css',
-			'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css',
-			array(),
-			'5.3.0'
-		);
+	public function enqueue_fontawesome() {
 
 		wp_enqueue_style(
 			'elementor-team-fontawesome-css',
@@ -66,13 +61,6 @@ final class Team_Widget_For_Elementor {
 			'6.7.0'
 		);
 
-		wp_enqueue_script(
-			'elementor-team-bootstrap-js',
-			'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js',
-			array(),
-			'5.3.0',
-			true
-		);
 	}
 
 	/**
@@ -87,6 +75,7 @@ final class Team_Widget_For_Elementor {
 	 * Validates dependencies and registers team widget components
 	 */
 	public function init() {
+
 		if ( ! did_action( 'elementor/loaded' ) ) {
 			add_action( 'admin_notices', [ $this, 'admin_notice_missing_main_plugin' ] );
 			return;
@@ -105,6 +94,7 @@ final class Team_Widget_For_Elementor {
 		add_action( 'elementor/frontend/after_enqueue_styles', [ $this, 'widget_styles' ] );
 		add_action( 'elementor/widgets/widgets_registered', [ $this, 'init_widgets' ] );
 		add_action( 'elementor/init', [ $this, 'elementor_team_category' ] );
+
 	}
 
 	/**
