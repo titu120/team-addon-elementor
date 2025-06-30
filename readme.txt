@@ -2,7 +2,7 @@
 Contributors: softivus
 Tags: elementor, team widget, member widget, team members, staff widget, elementor widgets
 Requires at least: 4.7
-Tested up to: 6.8.1
+Tested up to: 6.8
 Stable tag: 1.0.0
 Requires PHP: 7.0
 License: GPLv2 or later

@@ -1,11 +1,12 @@
 <?php
 /**
  * Plugin Name: Team Widget for Elementor
- * Description: Custom Elementor extension which includes custom team widgets.
- * Plugin URI:  https://anahian.com/awesome-team-widget
+ * Description: A powerful Elementor widget for showcasing team members with beautiful layouts and social profiles.
  * Version:     1.0.0
  * Author:      softivus
- * Author URI:  https://profiles.wordpress.org/softivus/
+ * Author URI:  https://softivus.com
+ * License:     GPL v2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: team-widget-for-elementor
  * Domain Path: /languages
  */
